@@ -1,5 +1,10 @@
 require "develop_with_pleasure/version"
 
 module DevelopWithPleasure
-  # Your code goes here...
+  def self.greet
+    puts 'Develop with pleasure'
+  end
+  def self.greet2
+  	puts '2nd Greeting - Develop with pleasure'
+  end
 end
